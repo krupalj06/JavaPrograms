@@ -22,8 +22,9 @@ public class IntegerArrayList {
 		System.out.println("The Whole Numbers ArrayList: "+ wholenumbers);
 		
 		//Traverse 1
-		for(int i = 0; i< wholenumbers.size() ;i++) {
+		for(int i = 0; i<= wholenumbers.size()-1 ;i++) {
 			System.out.println(wholenumbers.get(i));  //arr[i]
+			
 		}
 		System.out.println("===============================");
 		
